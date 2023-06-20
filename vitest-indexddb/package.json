@@ -23,7 +23,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "keywords": [
     "vitest",
