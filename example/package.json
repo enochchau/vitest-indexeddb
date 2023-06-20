@@ -1,0 +1,25 @@
+{
+  "name": "vitest-indexddb-example",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^22.1.0",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9",
+    "vitest": "^0.32.2",
+    "vitest-indexddb": "workspace:*"
+  },
+  "dependencies": {
+    "idb": "^7.1.1"
+  }
+}
