@@ -3,7 +3,9 @@
   "private": true,
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^2.8.8"
   },
   "scripts": {
+    "fmt": "prettier --write --cache ."
   }
 }

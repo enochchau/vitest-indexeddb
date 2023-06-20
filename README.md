@@ -17,7 +17,7 @@ pnpm i -D vitest-indexdb
 ```typescript
 // ./setup/idbSetup.ts
 
-import {setup} from 'vitest-indexddb';
+import { setup } from "vitest-indexddb";
 
 setup();
 ```
@@ -27,14 +27,14 @@ setup();
 ```typescript
 // ./vite.config.ts
 
-import { defineConfig } from 'vitest/config'
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
     environment: "jsdom",
-    setupFiles: ["./setup/idbSetup.ts"]
-  }
-})
+    setupFiles: ["./setup/idbSetup.ts"],
+  },
+});
 ```
 
-3. Run tests 
+3. Run tests
