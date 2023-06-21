@@ -1,13 +1,13 @@
-# vitest-indexddb
+# vitest-indexeddb
 
-Add a shim for IndexdDB when testing with Vitest.
+Add a shim for indexeddb when testing with Vitest.
 
 ## Installation
 
 ```
-yarn add -D vitest-indexddb
-npm i -D vitest-indexddb
-pnpm i -D vitest-indexddb
+yarn add -D vitest-indexeddb
+npm i -D vitest-indexeddb
+pnpm i -D vitest-indexeddb
 ```
 
 ## Usage
