@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import * as KVStore from "./kvstore";
 
-describe("test indexddb kv store", () => {
+describe("test indexeddb kv store", () => {
   test("set and get", async () => {
     await KVStore.set("hello", "world");
     let res = await KVStore.get("hello");

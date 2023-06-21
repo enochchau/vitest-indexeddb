@@ -19,7 +19,7 @@ An example project can be found at [/example](../example) for reference.
 ```typescript
 // ./setup/idbSetup.ts
 
-import { setup } from "vitest-indexddb";
+import { setup } from "vitest-indexeddb";
 
 setup();
 ```

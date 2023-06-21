@@ -1,5 +1,5 @@
 {
-  "name": "vitest-indexddb",
+  "name": "vitest-indexeddb",
   "version": "0.0.1",
   "description": "Add a shim for IndexdDB when testing with Vitest.",
   "author": "Enoch Chau <enoch965@gmail.com>",
@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ec965/vitest-indexddb.git"
+    "url": "git+https://github.com/ec965/vitest-indexeddb.git"
   },
   "bugs": {
-    "url": "https://github.com/ec965/vitest-indexddb/issues"
+    "url": "https://github.com/ec965/vitest-indexeddb/issues"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -29,7 +29,7 @@
   "keywords": [
     "vitest",
     "vite",
-    "indexddb"
+    "indexeddb"
   ],
   "devDependencies": {
     "typescript": "^5.1.3",

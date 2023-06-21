@@ -1,3 +1,3 @@
-import { setup } from "vitest-indexddb";
+import { setup } from "vitest-indexeddb";
 
 setup();
