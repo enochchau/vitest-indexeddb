@@ -1,6 +1,6 @@
 {
   "name": "vitest-indexeddb",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Add a shim for IndexdDB when testing with Vitest.",
   "author": "Enoch Chau <enoch965@gmail.com>",
   "homepage": "https://github.com/ec965/vitest-mongodb#readme",
