@@ -21,10 +21,13 @@ describe("test indexeddb kv store", () => {
 
     let keys = await KVStore.keys();
     // convert to obj since order doesn't matter
-    let res = keys.reduce((acc, key) => {
-      acc[key.toString()] = true;
-      return acc;
-    }, {} as Record<string, boolean>);
+    let res = keys.reduce(
+      (acc, key) => {
+        acc[key.toString()] = true;
+        return acc;
+      },
+      {} as Record<string, boolean>,
+    );
 
     expect(res).toEqual({ hello: true, foo: true });
   });
